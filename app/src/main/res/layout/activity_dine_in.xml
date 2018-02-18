@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ramadhan_1202144104_modul2.DineIn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identitas Pemesan:"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="10pt"
+            android:id="@+id/textdine"
+            android:layout_marginTop="@dimen/margin_top"/>
+
+        <EditText
+            android:layout_width="@dimen/lebar_dine"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama"
+            android:layout_below="@+id/textdine"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="name"/>
+
+        <EditText
+            android:layout_width="@dimen/lebar_dine"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:layout_below="@+id/nama"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="phone"
+            android:inputType="phone"/>
+
+        <EditText
+            android:layout_width="@dimen/lebar_dine"
+            android:layout_height="wrap_content"
+            android:id="@+id/alamat"
+            android:layout_below="@+id/phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="alamat"/>
+
+        <EditText
+            android:layout_width="@dimen/lebar_dine"
+            android:layout_height="wrap_content"
+            android:id="@+id/catatan"
+            android:layout_below="@+id/alamat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="catatan"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pesan_dine"
+            android:layout_below="@+id/catatan"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_centerHorizontal="true"
+            android:text="Pilih Pesanan"
+            android:onClick="pilihpesanan"/>
+
+</RelativeLayout>

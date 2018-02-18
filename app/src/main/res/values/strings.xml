@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ramadhan_1202144104_Modul2</string>
+    <string name="text_pilih">Pilih Menu:</string>
+    <string name="radio1">Dine In</string>
+    <string name="radio2">Take Away</string>
+    <string name="button_utama">Pesan Sekarang</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+</resources>

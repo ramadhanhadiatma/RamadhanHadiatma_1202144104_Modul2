@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="lebar_dine">200dp</dimen>
+    <dimen name="recycler_height">70dp</dimen>
+    <dimen name="recycler_width">70dp</dimen>
+</resources>
